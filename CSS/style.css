@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+
+/* Площадка */
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+
+/* Ячейка */
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody {
+    background: url(scale.jpg); /* Чешуя змеи  scale.jpg*/
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.head {
+    background: url(cat.jpeg); /* Голова змеи cat.jpeg*/
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.mouse {
+    background: url(mouse.png); /* Мышь*/
+    background-size: cover;
+}
